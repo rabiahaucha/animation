@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+background:black;
+font-family: "work Sans",sans-serif;
+font-weight: 300;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+header{
+    background:black;
+}
+header::after {
+    content:'';
+   display:table;
+   clear:both;
+}
+.logo{
+    float:left;
+    padding:10px 0;
+}
+
+nav {
+    float:right;
+}
+nav ul {
+  margin:0;
+  padding:0;
+  list style:none;
+
+}
+nav li{
+    display:inline-block;
+    margin:10px;
+    padding-top:25px;
+    position:relative;
+}
+nav a {
+color:white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14px;
+}
+ 
+nav a:hover{
+    color:blue;
+}
+
+nav a::before{
+    content:'';
+    display:block;
+    height:5px;
+    width:100%;
+    background-color:black;
+
+    position:absolute;
+    top:0;
+    width:0%;
+
+    transition:all ease-in-out 250m.s;
+}
+nav a:hover::before{
+    width:100%;
+}
+.maincontainer{
+    position:relative;
+    width: 250px;
+    height:320px;
+    background:black;
+}
+.thecard{
+    position: absolute;
+    width:  100%;
+    height:100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+ 
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.thefront{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+   backface-visibility: hidden;
+   background: black;
+   color:#333;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 20px;
+   font-size: 18px;
+   font-weight:bold ;
+   
+}
+.theback{
+    position:absolute;
+    width:100%;
+    height:100%;
+   backface-visibility: hidden;
+   background:black;
+   color:burlywood;
+   transform: rotateY(180deg);
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 20px;
+   font-size: 18px;
+   font-weight:bold ;
+
+}
+.maincontainer2{
+    position:relative;
+    width: 250px;
+    height:320px;
+    background:black;
+}
+.thecard{
+    position: absolute;
+    width:  100%;
+    height:100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+ 
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.thefront{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+   backface-visibility: hidden;
+   background: black;
+   color:#333;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 20px;
+   font-size: 18px;
+   font-weight:bold ;
+   
+}
+.theback{
+    position:absolute;
+    width:100%;
+    height:100%;
+   backface-visibility: hidden;
+   background:#fafafa;
+   color:burlywood;
+   transform: rotateY(180deg);
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 20px;
+   font-size: 18px;
+   font-weight:bold ;
+
+}
+.maincontainer3{
+    position:relative;
+    width: 250px;
+    height:320px;
+    background:black;
+}
+.thecard{
+    position: absolute;
+    width:  100%;
+    height:100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+ 
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.thefront{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+   backface-visibility: hidden;
+   background: black;
+   color:#333;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 20px;
+   font-size: 18px;
+   font-weight:bold ;
+   
+}
+.theback{
+    position:absolute;
+    width:100%;
+    height:100%;
+   backface-visibility: hidden;
+   background:#fafafa;
+   color:burlywood;
+   transform: rotateY(180deg);
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 20px;
+   font-size: 18px;
+   font-weight:bold ;
+
+}
+.maincontainer4{
+    position:relative;
+    width: 250px;
+    height:320px;
+    background:black;
+}
+.thecard{
+    position: absolute;
+    width:  100%;
+    height:100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+ 
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.thefront{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+   backface-visibility: hidden;
+   background: black;
+   color:#333;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 20px;
+   font-size: 18px;
+   font-weight:bold ;
+   
+}
+.theback{
+    position:absolute;
+    width:100%;
+    height:100%;
+   backface-visibility: hidden;
+   background:#fafafa;
+   color:burlywood;
+   transform: rotateY(180deg);
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 20px;
+   font-size: 18px;
+   font-weight:bold ;
+
+}
+
+.test{
+    display: flex;
+
+}
